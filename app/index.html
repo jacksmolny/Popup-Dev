@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>Site name</title>
+	<meta name="description" content="Site slogan">
+	<meta name="keywords" content="Site keys">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<meta name="theme-color" content="#fff">
+	<meta name="msapplication-navbutton-color" content="#fff">
+	<meta name="apple-mobile-web-app-status-bar-style" content="#fff">
+	<meta name="theme-color" content="#fff">
+	<meta property="og:title" content="Site keys" />
+	<meta property="og:description" content="Site slogan" />
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="***permalink***" />
+	<meta property="og:image" content="***img***" />
+	<meta property="og:image:type" content="image/jpeg" />
+	<!-- safari format detection -->
+	<meta name="format-detection" content="telephone=no" />
+	<meta name="format-detection" content="address=no" />
+	<meta name="format-detection" content="email=no" />
+	<meta name="format-detection" content="date=no" />
+	<!-- css -->
+	<link rel="stylesheet" href="css/semantic.css">
+	<link rel="stylesheet" href="css/popup343.css">
+</head>
+
+<body>
+	<button class="ui button popup343-button" style="background-color: #0d71bb; padding: 20px; text-transform: uppercase; color: white; margin-left: auto;margin-right: auto;margin-top:50px;display: block;">Modal Tip</button>
+	<div class="ui modal small popup343">
+		<i class="close popup343-close"></i>
+		<div class="popup343-wrapper">
+			<div class="popup343-container"></div>
+		</div>
+	</div>
+	<script src="/js/jquery-3.4.1.min.js"></script>
+	<script src="/js/semantic.min.js"></script>
+	<script>
+		$(document).ready(function () {
+			$('.modal.popup343').modal('attach events', '.popup343-button');
+		});
+	</script>
+</body>
+
+</html>
