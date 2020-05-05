@@ -1,4 +1,17 @@
+.ui.modal>.close {
+  background: 0 0;
+  top: .5rem;
+  right: .5rem;
+  z-index: 22;
+}
+
 .popup343 {
+
+  & img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
 
   &-wrapper {
     position: relative;

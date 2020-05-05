@@ -104,7 +104,7 @@ const compressImg = (cb) => {
             parallelMax: 20,
             log: true
         }))
-        .pipe(gulp.dest('build/'));
+        .pipe(gulp.dest('build/img/'));
     cb();
 };
 
